@@ -1,0 +1,126 @@
+/*general*/
+
+html{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 0;
+	background: #EEE;
+	font: 18px Georgia, Times, "Times New Roman", Serif;
+	background: radial-gradient(circle, #eee, #9dd2ea, #FFF);
+	/* background-color: #0b0c10;
+	background: #50d07d;
+	background: #d02552;
+	background: #b2cecf; */
+}
+
+#main-content{
+	width: 500px;
+	margin: 0 auto; 
+	padding: 20px 0;
+	text-align: center;
+}
+
+#return-container {
+	width: 500px; 
+	padding: 20px 0;
+	text-align: center;
+}
+
+h1{
+	font: 30px Arial, "Helvetica Neue", Helvetica, Sans-Serif;
+}
+.container {
+    box-sizing: border-box;
+    height: 440px;
+    width: 590px;
+	background: radial-gradient(square,#9dd2ea, #FFF , #CCC);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 100px auto;
+    position: relative;
+	background-color: rgba(255, 255, 255, .15);  
+	backdrop-filter: blur(5px);
+}
+
+.returnhome {
+	padding: 10px;
+    background: rgba(255, 255, 255, 0.5);
+	margin:  10px 40px;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    position: relative;
+    transition: all .2s;
+}
+
+/*menu page*/
+
+ul#measurement-types{
+	list-style-type: none;
+	margin: 1em 80px;
+	padding: 0;
+}
+
+ul#measurement-types li{
+	height: auto;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+ul#measurement-types li a{
+	text-decoration: none;
+	color: black;
+	display: block;
+	background: white;
+	padding: 22px 34px;
+	width: 180px;
+	border: 1px solid black;
+}
+
+ul#measurement-types li a:hover{
+	background: #b2cecf;
+}
+
+/*Conversion forms*/
+
+form label{
+	display: inline-block;
+	width: 45px;
+}
+
+form input[type="text"]{
+	width: 80px;
+	font-size: 16px;
+	line-height: 16px;
+}
+
+form select{
+	margin: 1em 0;
+	font-size: 14px;
+}
+
+form input[type="submit"]{
+	font-size: 1em;
+	text-decoration: none;
+	color: black;
+	display: block;
+	background: white;
+	margin: 2em auto;
+	padding: 6px 12px;
+	border: 1px solid black;
+	width: 120px	;
+
+}
+
+form input[type="submit"]:hover{
+	color: white;
+	background: #50d07d;
+}
+
+.returnhome:hover {
+	background:  #d0250d;
+}
